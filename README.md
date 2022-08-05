@@ -11,7 +11,7 @@ the history of individual transactions and the state changes they implied.
 In Substrate, the notion of a transaction is represented by `call`
 and the state is stored in a special data structure called `storage`.
 It is impossible, however, to trace the state changes back to the calls
-and even to obtain the history of the call stack.
+and even to obtain the call stack.
 
 Data indexers ought to rely on a special logging like mechanism provided by `events`,
 however this is fundamentally error-prone and unreliable. 
